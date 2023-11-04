@@ -79,22 +79,26 @@ h6 {
   font-weight: 400;
 }
 /*--------------------*/
-
-#e r {
-  color: rgb(208, 28, 46);
+body{
+  width: 87%;
+  text-align: cent er;
+  margin:auto;
 }
- .q w {
-  color: blue;
+.qw {
 }
-
-h1 {
-  font-style: italic;
-  color: rgb(7, 6, 233);
-  backg round-color: blanchedalmond;
+.text {
+  background-color: #c4c0c0;
+  border-radius: 30px;
+  padding: 20px;
+  width: 800px;
+  border: 2px solid #73AD21;
+  transition: background-color 2s;
+  
 }
-h1.q w {
-  color: rgb(141, 78, 78);
-} 
-.te xt { 
-  color: blue;
+.text:hover {
+  transition: background-color .3s;
+  background-color: #f0e9e9;
+}
+#er{
+  
 }
