@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800);
+.wrapper {
+  font-family: Montserrat;
+  color: #252b42;
+  font-weight: 500;
+  font-size: 14px;
+
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container {
+  max-width: 1076px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* ........шапка..............  */
+
+.header {
+  /* position: absolute; */
+  padding: auto;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+}
+.header__menu {
+  margin: 0 0 0 133px;
+}
+@media (max-width: 992px) {
+  .header__menu {
+    margin: 0 0 0 80px;
+  }
+}
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+@media (max-width: 767px) {
+  .header__menu {
+    margin: 0 0 0 40px;
+  }
+  .menu__list {
+    gap: 10px;
+  }
+}
+.menu {
+}
+
+.menu__item {
+}
+.menu__link {
+  line-height: calc(24 / 14 * 100%);
+  color: inherit;
+  font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .menu__link {
+    font-size: 18px;
+  }
+  .header__container {
+    min-height: 85px;
+  }
+}
+
+/* ....... heder.......... */
+
+.page {
+  flex: 1 1 auto;
+}
+
+/* ....... footer.......... */
+.footer {
+}
+
+/* ....... block.......... */
+
+._ibg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.page {
+}
+.page__main-block {
+}
+.main-block {
+  /* position: relative; */
+}
+.main-block__container {
+}
+._container {
+}
+.main-block__body {
+  padding: 10px 0 91px 0;
+  position: relative;
+  z-index: 2;
+  max-width: 400px;
+}
+.main-block__body > *:not(:last-child) {
+  margin: 0 0 35px 0;
+}
+.main-block__title {
+  font-size: 58px;
+  line-height: 137%;
+  font-weight: 800;
+}
+.main-block__text {
+  font-size: 20px;
+  color: #737373;
+  line-height: 150%;
+}
+.main-block__buttoms {
+  display: inline-flex;
+  gap: 10px;
+}
+.main-block__buttom {
+  justify-content: center;
+  align-items: center;
+  border-radius: 37px;
+  padding: 10px 36px;
+  border: 1px solid #0d5c63;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  transition: all 0.3s;
+  color: #0d5c63;
+}
+.main-block__buttom:hover {
+  background-color: #ff7b47;
+  border: 1px solid #ff7b47;
+  color: rgb(249, 249, 249);
+}
+
+.main-block__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  object-fit: cover;
+}
+
+/* ....... block.......... */
+
+.services__colum {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.services__item {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  padding: 35px;
+  max-width: 328px;
+}
+
+.item-services__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.item-services-grin {
+  background: #0d5c63;
+  color: #ffffff;
+}
+
+/* .......advantages .......................................................... */
+
+.page__advantages {
+}
+.advantages {
+  padding: 80px 0;
+}
+.advantages_container {
+  display: flex;
+  flex-direction: column;
+}
+._container {
+  
+}
+.advantages__header {
+  margin: 0 0 50px 0;
+}
+.header-block {
+  text-align: center;
+}
+.header-block__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 142.5%;
+  letter-spacing: 0.2px;
+}
+.header-block__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.header-block__subtitle {
+  font-weight: 500;
+  line-height: 142.857%;
+  letter-spacing: 0.2px;
+  /* max-width: 511px; */
+}
+.advantages__body {
+  display: flex;
+  gap: 25px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+.advantages__column {
+  
+  
+  flex: 0 1 25%;
+}
+.advantages__item {
+  background-color: #e4e4e4;
+  padding: 30px;
+  text-align: center;
+}
+.advantages__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.advantages__value {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 142.5%;
+  letter-spacing: 0.2px;
+}
+.advantages__text {
+  
+
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
