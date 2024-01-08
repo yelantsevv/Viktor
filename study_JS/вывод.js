@@ -5,6 +5,9 @@ console.log(`Вывод в консоль можно
 //  ... в модальное окно
 // alert("модальное");
 
+//спрашивает в модельном окне да или нет возвращает булевое значение
+let userName = confirm("ответ да - true ответ нет -false ");
+
 //  ... в тело документа
 document.write(`<h1>В тело документа</h1>`);
 
@@ -13,3 +16,10 @@ let age = 2023 - 1987;
 document.write(`<h1>переменная${age} <br>
 Текст на<br>
 насколько страниц</h1>`);
+
+//РАЗНИЦА ???
+console.dir(age);
+console.dir(Text);
+
+console.log(age);
+console.log(Text);
